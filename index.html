@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsivo.css">
+</head>
+<body>
+   <main>
+        <div class="foto">
+            <img src="assets/img/undraw_browsing-online_rozb.svg" alt="">
+        </div>
+        <div class="container">
+            <form>
+                <div class="titulo">
+                    <h1>Cadastre-se</h1>
+                    <button>Enviar</button>
+                </div>
+                <div class="input-container">
+                    <div class="input-box">
+                        <label for="inome">Primeiro nome</label>
+                        <input type="text" name="nome" id="inome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="input-box">
+                        <label for="isob">Sobrenome</label>
+                        <input type="text" name="sob" id="isob" placeholder="Digite seu sobrenome">
+                    </div>
+                    <div class="input-box">
+                        <label for="iemail">E-mail</label>
+                        <input type="text" name="email" id="iemail" placeholder="Digite seu email">
+                    </div>
+                    <div class="input-box">
+                        <label for="icell">Celular</label>
+                        <input type="tel" name="cell" id="icell" placeholder="(xx) xxxx-xxxx">
+                    </div>
+                    <div class="input-box">
+                        <label for="isen">Senha</label>
+                        <input type="password" name="sen" id="isen" placeholder="Digite sua senha">
+                    </div>
+                    <div class="input-box">
+                        <label for="ics">confirme sua senha</label>
+                        <input type="password" name="cs" id="ics" placeholder="Confirme sua senha">
+                    </div>
+
+                    <div class="genero">
+                        <p>Gênero</p>
+                        <div class="genero-box">
+                            <div class="g">
+                                <input type="radio" name="feminino" id="if">
+                                <label for="if">Feminino</label>
+                            </div>
+                            <div class="g">
+                                <input type="radio" name="masculino" id="ic">
+                                <label for="ic">Masculino</label>
+                            </div>
+                            <div class="g">
+                                <input type="radio" name="none" id="io">
+                                <label for="io">Outros</label>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <input type="submit" value="Continuar" class="btn-c">
+            </form>
+        </div>
+   </main>
+</body>
+</html>
